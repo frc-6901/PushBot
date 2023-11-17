@@ -16,4 +16,15 @@ public final class Constants {
   public static class OperatorConstants {
     public static final int kDriverControllerPort = 0;
   }
+
+  public static class DrivetrainConstants {
+
+    public static final int kLeftSRXDrivePort = -1;
+    public static final int kLeftSPXDrivePort = -1;
+
+    public static final int kRightSRXDrivePort = -1;
+    public static final int kRightSPXDrivePort = -1;
+    public static final int kDriveForwardMultiplier = 0;
+    public static double kDriveTurnMultiplier;
+  }
 }
